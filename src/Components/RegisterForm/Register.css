@@ -1,0 +1,12 @@
+.RegisterForm::-webkit-scrollbar{
+    width: 5px;
+}
+
+.RegisterForm::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 7, 0.5);
+    border-radius: 8px;
+}
+
+.RegisterForm::-webkit-scrollbar-track{
+    background-color:rgba(0, 0, 7, 0.1) ;
+}
