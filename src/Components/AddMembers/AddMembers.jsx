@@ -23,8 +23,9 @@ const AddMembers = ({ setAddMembers }) => {
       [name]: value,
     }));
   };
-
-  const handleImage = async (e) => {
+  
+//cloud naryimage handle
+const handleImage = async (e) => {
     const files = e.target.files[0];
     console.log(files);
     const data = new FormData();
@@ -42,6 +43,8 @@ const AddMembers = ({ setAddMembers }) => {
       console.error(err);
     }
   };
+
+  
   return (
     <>
       <section className="lg:w-2/3 w-full absolute top-[90px] left-0 bg-white p-5 text-black ">
