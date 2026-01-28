@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
-import logo from "../images/gym2.jpg";
+import logo from "../images/Gym2.jpg";
 import Switch from "react-switch";
 const UserDetails = () => {
   let navigate = useNavigate();
