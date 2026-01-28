@@ -7,7 +7,7 @@ import { IoIosSearch } from "react-icons/io";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import MembersCard from "../Components/MemberCard/MembersCard.jsx";
-import AddMembership from "../Components/MemberShip/AddMembership.jsx";
+import AddMembership from "../Components/MemberShip/AddMemberShip.jsx";
 import AddMembers from "../Components/AddMembers/AddMembers";
 
 const Members = () => {
